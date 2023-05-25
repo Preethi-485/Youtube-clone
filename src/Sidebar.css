@@ -1,0 +1,13 @@
+.Sidebar{
+    /*border:1px solid black;*/
+    flex:0.2; /*flex determines howmuch space this container should occupy in a screen space. It can have values between 0 to 1. flex of 1 is the max value which occupies the entire screen*/
+
+}
+
+.Sidebar > hr{
+    height:1px;
+    border:0;
+    background-color: lightgrey;
+    margin-top:10px;
+    margin-bottom:10px;
+}

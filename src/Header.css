@@ -1,0 +1,57 @@
+.header{
+
+    display:flex;     /*all icons displayed in a row*/
+    align-items:center;
+    justify-content:space-between; /*contents are spaced based on different divisions*/
+    padding:20px; /*to make contents display a few cm away from the outermost margin or border*/
+    position:sticky;/*makes it to stand at the op when we scroll*/
+    top:0;
+    z-index: 100; /*helps to appear at the front, like transparency is solid.It doesn't allow the text of the page to disturb it*/
+    background-color:white;
+}
+
+.header__logo{
+    height:25px;
+    object-fit:contain;
+    margin-left:20px; /*Pushes away tge logo by few cm from the menu button*/
+
+}
+
+
+.header_input>input{
+    flex:1;
+    border:none;
+}
+
+.header_middle{
+    display:flex;
+    align-items:center;
+    width: 40%;
+    border:1px solid lightgray;
+
+}
+
+.header_middle>input{ /*to bring in the search cion into the search bar*/
+    flex:1;
+    border:none;
+}
+
+
+.header__inputbutton{
+    width:50px;
+    background-color:#fafafa;
+    border-left:1px solid lightgray;
+    color:grey;
+
+}
+.header_mic{
+    color:grey;
+}
+.header_right{
+    display: flex;
+    align-items:center;
+}
+.header_icon{
+    margin-right:8px;/*to space between icons, save each icon separately using the same className and give it a margin attribute*/
+
+}

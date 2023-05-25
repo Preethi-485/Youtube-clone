@@ -2,7 +2,6 @@ import React from 'react';
 import "./Rv.css";
 import VideoCard from "./VideoCard.js";
 
-
 function Rv(){
     return(
         <div className="Rv">

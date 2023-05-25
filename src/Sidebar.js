@@ -25,10 +25,6 @@ function Sidebar(){
            <SidebarRow Icon={ThumbUpOutlinedIcon} title="Liked Videos"/>
            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more"/>
            <hr/>
-           
-
-
-
         </div>
     );
 

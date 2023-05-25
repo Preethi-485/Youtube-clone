@@ -21,20 +21,14 @@ function Header() {
                     <SearchIcon className="header__inputbutton"/>
                 <MicIcon className="header_mic"/>
             </div>
-            
-               
-            
             <div className="header_right">
             <VideoCallIcon className="header_icon"/>
             <NotificationsNoneIcon className="header_icon"/> 
             <AppsIcon className="header_icon"/>
             </div>
-
-
-        </div>
-
-
+      </div>
     );
-
 }
+
+
 export default Header;

@@ -1,5 +1,4 @@
 .header{
-
     display:flex;     /*all icons displayed in a row*/
     align-items:center;
     justify-content:space-between; /*contents are spaced based on different divisions*/
